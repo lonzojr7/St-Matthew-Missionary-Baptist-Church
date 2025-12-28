@@ -8,6 +8,6 @@ main {
     background-image: url("../images/Church.JPG");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
 }
