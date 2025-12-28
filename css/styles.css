@@ -5,7 +5,8 @@
 
 main {
     width: 100%;
-    background: purple white(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(Church.JPG);
+    background-image: url("../images/Church.JPG");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 109vh;
