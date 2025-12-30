@@ -19,10 +19,11 @@ main {
     margin: auto;
 }
 
-.icon {
-    width: 200px;
+.logo {
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
     float: left;
-    height: 70px;
+    padding-top: 10px;
 }
-
-.logo
