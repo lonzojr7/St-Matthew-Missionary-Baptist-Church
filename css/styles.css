@@ -14,23 +14,26 @@ main {
 }
 
 .navbar {
-    display: flex;
-    align-items: center;    
-    justify-content: center; 
-    gap: 20px;              
-    padding: 20px;
-    width: 100%;
+    width: 1200px; 
+    height: 75px; 
+    margin: auto;
 }
 
 .logo img {
-    width: 120px;
-    height: auto;
+    width: 100px; 
+    height: auto; 
+    float: left; 
+    margin-top: 2px; 
+    margin-left: 5px;
 }
 
 .name {
-    color: white;
-    font-size: 2.5rem;
-    font-family: Arial, sans-serif;
+    color: white; 
+    font-size: 35px; 
+    font-family: Arial; 
+    padding-left: 20px; 
+    float: left; 
+    padding-top: 16px;
 }
 
 .footer {
