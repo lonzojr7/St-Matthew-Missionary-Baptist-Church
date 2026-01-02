@@ -37,15 +37,26 @@ main {
 }
 
 .footer {
-    width: 100%;
-    height: 50px;
     background-color: purple;
     color: white;
-    text-align: left;
-    padding-left: 150px;
-    padding-top: 15px;
-    font-size: 20px;
-    font-family: Arial;
-    position: absolute;
-    bottom: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.bible-verse {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #333; 
+}
+
+.bible-verse .reference {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: purple;
 }
