@@ -10,7 +10,7 @@ main {
     background-position: center;
     background-size: contain;
     background-color: purple;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .navbar {
