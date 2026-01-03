@@ -34,7 +34,7 @@ main {
 
 .name {
     color: white; 
-    font-size: 35px; 
+    font-size: 2.5rem; 
     font-family: Arial; 
     display: inline-block;
     vertical-align: middle;
@@ -45,6 +45,8 @@ main {
     background-color: purple;
     color: white;
     text-align: center;
+    font-size: 2.0rem;
+    font-family: Arial;
     padding: 20px;
 }
 
