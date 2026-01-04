@@ -8,9 +8,9 @@ main {
     background-image: url("../images/Church.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-color: purple;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .navbar {
@@ -66,4 +66,15 @@ main {
     font-size: 1.1rem;
     font-weight: bold;
     color: purple;
+}
+
+.welcome-message {
+    background-color: purple; 
+    padding: 40px 20px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: white; 
 }
