@@ -100,7 +100,7 @@ main::before {
 .menu {
     text-align: center;
     background-color: white;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .menu ul {
@@ -111,19 +111,23 @@ main::before {
 
 .menu ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .menu ul li a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: purple;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: purple;           
+    color: white;                        
+    font-size: 1.2rem;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    transition: 0.3s ease;
+    text-decoration: none;
+    border-radius: 8px;                  
+    transition: 0.3s ease;            
 }
 
 .menu ul li a:hover {
-    color: darkmagenta;
-    text-decoration: underline;
+    background-color: darkmagenta;
+    transform: translateY(-2px)
 }
