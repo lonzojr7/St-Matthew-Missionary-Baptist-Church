@@ -12,11 +12,11 @@
     min-height: 80vh;
 }
 
-main {
+.home-page main {
     position: relative;
 }
 
-main::before {
+.home-page main::before {
     content: "";              
     position: absolute;       
     top: 0;
@@ -27,7 +27,7 @@ main::before {
     z-index: 1; 
 }
 
-.navbar {
+.home-page .navbar {
     width: 100%; 
     height: 75px; 
     margin: auto;
@@ -38,7 +38,7 @@ main::before {
     z-index: 2;
 }
 
-.logo {
+.home-page .logo {
     display: inline-block;
 }
 
@@ -50,7 +50,7 @@ main::before {
     filter: drop-shadow(2px 2px 4px black) brightness(1.2)
 }
 
-.name {
+.home-page .name {
     color: white; 
     font-size: 2.5rem; 
     font-family: Arial; 
@@ -59,7 +59,7 @@ main::before {
     margin-top: 2px;
 }
 
-.footer {
+.home-page .footer {
     background-color: purple;
     color: white;
     text-align: center;
@@ -69,7 +69,7 @@ main::before {
 }
 
 
-.bible-verse {
+.home-page .bible-verse {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 40px 20px;
     text-align: center;
@@ -86,7 +86,7 @@ main::before {
     color: purple;
 }
 
-.welcome-message {
+.home-page .welcome-message {
     background-color: purple; 
     padding: 40px 20px;
     padding-top: 2px;
