@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-main {
+.home-page main {
     width: 100%;
     background-image: url("../images/Church.png");
     background-repeat: no-repeat;
