@@ -136,18 +136,18 @@
     width: 100%;
     min-height: auto;
     background: none;
+    padding: 40px 20px;
 }
 
 .pastor-headshot img {
-    width: 250px;
-    max-width: 100%;
+    width: 220px;
     height: auto;
     border-radius: 8px;
 }
 
 .pastor-headshot {
-    text-align: center;
-    margin: 20px 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .pastor-bio {
@@ -159,4 +159,24 @@
     float: right;
     font-size: 2rem;
     margin-top: 10px;
+}
+
+.pastor-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pastor-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;   
+    max-width: 400px;
+    text-align: middle;
+
+}
+
+.pastor-name {
+    margin-top: 0;
+    white-space: nowrap;
+    font-size: 1.8rem;
 }
