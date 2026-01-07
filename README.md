@@ -1,1 +1,1 @@
-# St-Matthews-Missionary-Baptist-Church
+# St-Matthew-Missionary-Baptist-Church
