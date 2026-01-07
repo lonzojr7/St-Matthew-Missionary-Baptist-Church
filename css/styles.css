@@ -180,3 +180,21 @@
     white-space: nowrap;
     font-size: 1.8rem;
 }
+
+@media (max-width: 768px) {
+    .pastor-headshot,
+    .pastor-text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .pastor-text {
+        margin-left: 0;
+        min-width: unset;
+    }
+
+    .pastor-name {
+        white-space: normal;
+    }
+}
