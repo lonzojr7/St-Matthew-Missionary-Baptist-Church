@@ -131,3 +131,32 @@
     background-color: darkmagenta;
     transform: translateY(-2px)
 }
+
+.pastor-bio-page main {
+    width: 100%;
+    min-height: auto;
+    background: none;
+}
+
+.pastor-headshot img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pastor-headshot {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pastor-bio {
+    text-align: center;
+    padding: 20px;
+}
+
+.pastor-bio .pastor-name {
+    float: right;
+    font-size: 2rem;
+    margin-top: 10px;
+}
