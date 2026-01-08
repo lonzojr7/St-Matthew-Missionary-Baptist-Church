@@ -132,6 +132,10 @@
     transform: translateY(-2px)
 }
 
+.pastor-bio-page {
+   background-color: #f4f0f7;
+}
+
 .pastor-bio-page main {
     width: 100%;
     min-height: auto;
@@ -143,6 +147,7 @@
     width: 220px;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 .pastor-headshot {
@@ -153,13 +158,16 @@
 .pastor-bio {
     text-align: center;
     padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.pastor-bio .pastor-name {
-    float: right;
-    font-size: 2rem;
-    margin-top: 10px;
+.pastor-bio h1 {
+    color: purple;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
+
 
 .pastor-info {
     text-align: center;
@@ -169,16 +177,17 @@
 .pastor-text {
     display: inline-block;
     vertical-align: top;
-    margin-left: 70px;   
-    max-width: 400px;
-    text-align: middle;
+    margin-left: 50px;   
+    max-width: 550px;
+    text-align: left;
 
 }
 
 .pastor-name {
     margin-top: 0;
     white-space: nowrap;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    color: purple;
 }
 
 @media (max-width: 768px) {
@@ -191,7 +200,7 @@
 
     .pastor-text {
         margin-left: 0;
-        min-width: unset;
+        max-width: 100%;
     }
 
     .pastor-name {
@@ -200,5 +209,30 @@
 }
 
 .about-pastor {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: purple;
+}
+
+.pastor-bio-text {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+
+}
+
+.pastor-bio-text p {
+    margin-bottom: 20px;
+}
+
+.pastor-bio-page .footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Arial;
+    padding: 20px;
 }
