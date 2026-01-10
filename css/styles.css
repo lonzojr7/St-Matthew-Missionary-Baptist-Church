@@ -309,4 +309,17 @@
     color: purple;
 }
 
+.Church-Overview {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: left;
+}
+
+.Church-Overview p {
+    margin-bottom: 20px;
+}
+
 
