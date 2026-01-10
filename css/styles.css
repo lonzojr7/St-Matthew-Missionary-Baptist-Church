@@ -237,9 +237,22 @@
     padding: 20px;
 }
 
+.about-us-page {
+    background-color: #f4f0f7;
+}
+
 .about-us-page h1 {
     color: purple;
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.What-we-believe {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    text-align: left;
 }
