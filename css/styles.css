@@ -322,4 +322,13 @@
     margin-bottom: 20px;
 }
 
+.about-us-page .footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Arial;
+    padding: 20px;
+}
+
 
