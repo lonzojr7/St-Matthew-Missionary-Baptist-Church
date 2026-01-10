@@ -241,18 +241,72 @@
     background-color: #f4f0f7;
 }
 
-.about-us-page h1 {
-    color: purple;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-align: center;
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .What-we-believe {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
     font-size: 1.2rem;
     line-height: 1.7;
     color: #333;
-    max-width: 1000px;
-    margin: 0 auto 20px auto;
     text-align: left;
 }
+
+.what-we-believe p {
+    margin-bottom: 20px;
+}
+
+.about-us-page h1,
+.about-us-page h2 {
+    color: purple;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Mission-Vision-Values {
+    margin-top: 80px;
+}
+
+.Mission-Vision-Values p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: left;
+}
+
+.Mission-Vision-Values,
+.values-section {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.Mission-Vision-Values p,
+.values-intro,
+.values-closing {
+    margin-bottom: 20px;
+}
+
+.values-list {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.values-list li {
+    margin-bottom: 15px;
+}
+
+.values-list strong {
+    color: purple;
+}
+
+
