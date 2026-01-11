@@ -332,11 +332,11 @@
 }
 
 .weekly-services-page {
-    background-color: purple;
+    background-color: #f4f0f7;
 }
 
 .weekly-services-content h1 {
-    color: white;
+    color: purple;
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 30px;
@@ -347,13 +347,21 @@
     margin: 0 auto 40px auto;
     font-size: 2.0rem;
     line-height: 1.7;
-    color: white;
+    color: #333;
     text-align: left;
-    background-color: purple;
 }
 
 .weekly-services-content p {
     margin-bottom: 20px;
-}   
+}
+
+.weekly-services-page .footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Arial;
+    padding: 20px;
+}
 
 
