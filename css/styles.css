@@ -379,10 +379,14 @@
 .give-content {
     max-width: 1000px;
     margin: 0 auto 40px auto;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     color: #333;
     text-align: left;
+}
+
+.give-content p {
+    margin-bottom: 20px;
 }
 
 
