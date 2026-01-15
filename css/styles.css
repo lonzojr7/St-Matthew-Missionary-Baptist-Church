@@ -364,4 +364,25 @@
     padding: 20px;
 }
 
+.give-page {
+    background-color: #f4f0f7;
+}
+
+.give-content h1 {
+    color: purple;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 40px 0;
+    margin-bottom: 30px;
+}
+
+.give-content {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    font-size: 2.0rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: left;
+}
+
 
