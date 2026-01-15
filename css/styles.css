@@ -395,4 +395,30 @@
     margin-bottom: 30px;
 }
 
+.give-page .bible-verse {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #333; 
+}
+
+.give-page .bible-verse .reference {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: purple;
+}
+
+.give-page .footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Arial;
+    padding: 20px;
+}
+
 
