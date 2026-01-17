@@ -437,5 +437,18 @@
     color: #1877f2;
 }
 
+.home-page .footer-social i.fa-facebook {
+    color: #1877f2 !important;
+    font-size: 2.2rem;
+}
+
+.home-page .footer-social i.fa-facebook:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+
+
 
 
