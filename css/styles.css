@@ -563,6 +563,90 @@
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
+    h3 {
+        font-size: 1.3rem !important;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .home-page .navbar {
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .home-page .name {
+        font-size: 1.6rem;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .menu ul li a {
+        width: 90%;
+        font-size: 1rem;
+        padding: 14px;
+    }
+
+    .about-content,
+    .What-we-believe,
+    .Mission-Vision-Values,
+    .Church-Overview,
+    .weekly-services-content,
+    .give-content {
+        padding: 0 15px;
+    }
+
+    .weekly-services-content,
+    .give-content {
+        font-size: 1.1rem;
+    }
+
+    .footer {
+        font-size: 1.1rem;
+        padding: 20px 15px;
+    }
+
+    .footer-social i {
+        font-size: 1.8rem;
+    }
+
+    .home-page main {
+        min-height: 60vh;
+    }
+
+    .home-page .welcome-message,
+    .home-page .bible-verse {
+        font-size: 1.1rem;
+        padding: 25px 15px;
+    }
+}
+
+
 
 
 
