@@ -448,6 +448,114 @@
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
+.about-us-page .footer-social {
+    margin: 12px 0;
+}
+
+.about-us-page .footer-social a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.about-us-page .footer-social a:hover {
+    transform: scale(1.2);
+    color: #1877f2;
+}
+
+.about-us-page .footer-social i.fa-facebook {
+    color: #1877f2 !important;
+    font-size: 2.2rem;
+}
+
+.about-us-page .footer-social i.fa-facebook:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.pastor-bio-page .footer-social {
+    margin: 12px 0;
+}
+    
+.pastor-bio-page .footer-social a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.pastor-bio-page .footer-social a:hover {
+    transform: scale(1.2);
+    color: #1877f2;
+}
+
+.pastor-bio-page .footer-social i.fa-facebook {
+    color: #1877f2 !important;
+    font-size: 2.2rem;
+}
+
+.pastor-bio-page .footer-social i.fa-facebook:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.weekly-services-page .footer-social {
+    margin: 12px 0;
+}
+    
+.weekly-services-page .footer-social a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.weekly-services-page .footer-social a:hover {
+    transform: scale(1.2);
+    color: #1877f2;
+}
+
+.weekly-services-page .footer-social i.fa-facebook {
+    color: #1877f2 !important;
+    font-size: 2.2rem;
+}
+
+.weekly-services-page .footer-social i.fa-facebook:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.give-page .footer-social {
+    margin: 12px 0;
+}
+    
+.give-page .footer-social a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.give-page .footer-social a:hover {
+    transform: scale(1.2);
+    color: #1877f2;
+}
+
+.give-page .footer-social i.fa-facebook {
+    color: #1877f2 !important;
+    font-size: 2.2rem;
+}
+
+.give-page .footer-social i.fa-facebook:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
 
 
 
