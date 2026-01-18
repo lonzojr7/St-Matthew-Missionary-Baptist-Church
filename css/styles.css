@@ -15,6 +15,7 @@
     background-position: center;
     background-size: cover;
     min-height: 80vh;
+    background-attachment: scroll;
 }
 
 .home-page main {
@@ -620,10 +621,6 @@
         font-size: 1.8rem;
     }
 
-    .home-page main {
-        min-height: 60vh;
-    }
-
     .home-page .welcome-message,
     .home-page .bible-verse {
         font-size: 1.1rem;
@@ -642,7 +639,7 @@
         margin-bottom: 10px;
     }
 
-    .logo img {
+    .home-page .logo img {
         width: 90px;
         margin: 0 auto;
         display: block;
@@ -685,6 +682,22 @@
         padding: 0 16px;
     }
 }
+
+@media (max-width: 768px) {
+    .home-page main {
+        min-height: 65vh;                
+        background-position: center top;  
+        background-size: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page main::before {
+        background: rgba(0,0,0,0.5);
+    }
+}
+
+
 
 
 
