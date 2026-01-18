@@ -673,6 +673,26 @@
     }
 }
 
+@media (max-width: 768px) {
+    .values-list {
+        margin-left: 0;
+        padding-left: 18px;
+    }
+
+    .values-list li {
+        margin-bottom: 20px;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    .Mission-Vision-Values p,
+    .values-section p {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+}
+
+
 
 
 
