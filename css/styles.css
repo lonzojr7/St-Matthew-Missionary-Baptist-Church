@@ -692,6 +692,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about-content,
+    .weekly-services-content,
+    .give-content,
+    .Church-Overview {
+        padding: 0 16px;
+    }
+}
+
+
 
 
 
