@@ -642,6 +642,7 @@
     .home-page .logo img {
         width: 90px;
         margin: 0 auto;
+        margin-bottom: 10px;
         display: block;
     }
 
@@ -658,10 +659,14 @@
 @media (max-width: 768px) {
     .values-list {
         margin-left: 0;
-        padding-left: 18px;
+        padding-left: 0;
+        list-style-position: inside;
     }
 
     .values-list li {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
         margin-bottom: 20px;
         font-size: 1.05rem;
         line-height: 1.6;
