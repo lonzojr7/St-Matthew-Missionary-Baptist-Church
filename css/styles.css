@@ -659,23 +659,14 @@
 @media (max-width: 768px) {
     .values-list {
         margin-left: 0;
-        padding-left: 0;
-        list-style-position: inside;
+        padding-left: 1.2rem;
+        list-style-position: outside;
     }
 
     .values-list li {
         text-align: left;
-        margin-left: 0;
-        padding-left: 0;
         margin-bottom: 20px;
-        font-size: 1.05rem;
         line-height: 1.6;
-    }
-
-    .Mission-Vision-Values p,
-    .values-section p {
-        text-align: left;
-        font-size: 1.1rem;
     }
 }
 
@@ -701,6 +692,33 @@
         background: rgba(0,0,0,0.5);
     }
 }
+
+@media (max-width: 768px) {
+
+    .values-section {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Mission-Vision-Values p {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    .values-intro,
+    .values-closing {
+        text-align: left;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+
 
 
 
